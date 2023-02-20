@@ -19,5 +19,5 @@ A custom formula one news api that scrapes the top articles from formula1.com ma
 
 ## Support
 You can always get support at my discord server
-Discord - discord.gg/glowstik
-Youtuber - youtube.com/glowstik
+- Discord - discord.gg/glowstik
+- Youtuber - youtube.com/glowstik
