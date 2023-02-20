@@ -13,9 +13,9 @@ A custom formula one news api that scrapes the top articles from formula1.com ma
 
 ## Sample Endpoints
 1. Check for the latest articles and info about them
-`formulanews.vercel.app/api/get/articles/APIKEY`
+`formulanews.railway.app/api/get/articles/APIKEY`
 2. Check for specifc aricles and get information about it
-`formulanews.vercel.app/api/get/article/APIKEY?url=ARTICLEAPI`
+`formulanews.railway.app/api/get/article/APIKEY?url=ARTICLEAPI`
 
 ## Support
 You can always get support at my discord server
