@@ -1,3 +1,4 @@
 fastapi
 beautifulsoup4
 python-dotenv
+requests
