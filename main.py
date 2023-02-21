@@ -31,7 +31,7 @@ def get_news(background_tasks: BackgroundTasks, api_key: str):
 
     return {"articles": articles}
 
-@app.get("/api/get/info/{api_key}")
+@app.get("/api/get/article/{api_key}")
 def get_article_info(url: str, api_key: str):
     check_api_key(api_key)
     if 'formula1.com' not in url:
@@ -91,4 +91,4 @@ def update_cache(sleep_time: int):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=False)
+    uvicorn.run("main:app", host="0.0.0.0", port=os.environ.get('PORT', 3000), reload=True)
